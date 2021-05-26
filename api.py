@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-import deta
 from data_manipulation import data_manipulation
 
 app = FastAPI()
