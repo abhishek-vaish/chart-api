@@ -3,7 +3,7 @@ from data_manipulation import data_manipulation
 
 app = FastAPI()
 
-INPUT_PATH = "../data/qutrix_chart_work.csv"
+INPUT_PATH = "./data/qutrix_chart_work.csv"
 ds = data_manipulation(INPUT_PATH)
 
 def data_iter():
