@@ -20,7 +20,7 @@ def data_iter():
 @app.get("/api")
 def apiQuery():
     data = data_iter()
-    return {data}
+    return data
 
 
 
